@@ -1,0 +1,4 @@
+main: io.jcurtis.kotlinexample.KotlinPaper
+version: 1.0
+name: KotlinPaper
+api-version: 1.19
