@@ -4,9 +4,13 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '7.1.2'
 }
 
+// See https://docs.papermc.io/paper/dev/project-setup for the latest version
 var paperVersion = '1.20.2-R0.1-SNAPSHOT'
+
+// See https://kotlinlang.org/docs/home.html for the latest version
 var kotlinVersion = '1.9.20'
 
+// Change this to your package name
 group = 'io.jcurtis'
 version = '1.0'
 
