@@ -1,8 +1,11 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.kotlin.jvm' version '1.7.22'
+    id 'org.jetbrains.kotlin.jvm' version '1.9.20'
     id 'com.github.johnrengelman.shadow' version '7.1.2'
 }
+
+var paperVersion = '1.20.2-R0.1-SNAPSHOT'
+var kotlinVersion = '1.9.20'
 
 group = 'io.jcurtis'
 version = '1.0'
@@ -20,8 +23,8 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'io.papermc.paper:paper-api:1.19.2-R0.1-SNAPSHOT'
-    shadow "org.jetbrains.kotlin:kotlin-stdlib:1.7.22"
+    compileOnly 'io.papermc.paper:paper-api:' + paperVersion
+    shadow "org.jetbrains.kotlin:kotlin-stdlib:" + kotlinVersion
 }
 
 def targetJavaVersion = 17

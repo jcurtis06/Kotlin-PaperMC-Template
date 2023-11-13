@@ -2,6 +2,7 @@ package io.jcurtis.kotlinexample
 
 import org.bukkit.plugin.java.JavaPlugin
 
+@Suppress("unused")
 class KotlinPaper: JavaPlugin() {
     override fun onEnable() {
         // Pair is part of the Kotlin standard library
